@@ -1,0 +1,52 @@
+.time-read {
+    box-sizing: border-box;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    height: 80px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #6047EC;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark-count {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.book-mark-add {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.mark-title {
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    color: #292929;
+}
+
+@media only screen and (max-width: 600px) {
+    .time-read {
+        font-size: 18px;
+    }
+    .book-mark-add{
+        padding: 15px;
+    }
+    .mark-title{
+        font-size: 14px;
+    }
+}
