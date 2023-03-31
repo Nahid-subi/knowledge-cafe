@@ -1,0 +1,26 @@
+.body{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+    background: yellow;
+    width: 65%;
+}
+.side-bar{
+    background: greenyellow;
+    width: 35%;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body{
+    flex-direction: column-reverse;
+  }
+  .card{
+    width: 100%;
+  }
+  .side-bar{
+    width: 100%;
+  }
+  }
