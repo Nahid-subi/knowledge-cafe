@@ -37,8 +37,27 @@
     font-size: 16px;
     padding: 10px;
     color: #292929;
+    margin-top: 10px;
 }
-
+.btn-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.show-btn{
+    background-color: #6047EC;
+    color: white;
+    border: 1px solid #6047EC;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.show-btn:hover{
+    background-color: white;
+    color: #6047EC;
+    border: 2px solid #6047EC;
+}
 @media only screen and (max-width: 600px) {
     .time-read {
         font-size: 18px;
